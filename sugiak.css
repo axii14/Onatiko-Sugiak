@@ -1,0 +1,487 @@
+@font-face {src: url("Fontak/Snake\ mix.otf"); 
+    font-family: "nok"; }
+
+@font-face {src: url("Fontak/bfeather.ttf"); 
+    font-family: "nak"; }
+
+@font-face {src: url("Fontak/Good\ Vibes\ -\ Demo.ttf"); 
+    font-family: "nuk"; }
+
+@font-face {src: url("Fontak/Beauty\ and\ the\ Beast\ Sample.ttf"); 
+    font-family: "nek"; }
+
+@font-face {src: url("Fontak/Mermaid1001.ttf"); 
+    font-family: "nik"; }
+
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic);
+
+body
+{
+  text-align: center;
+  background: url(Irudiak/ezkatak.jpg) top center;
+  background-size: fill;
+}
+
+h1
+{
+  font-family: 'nek';
+	text-transform: uppercase;
+  font-size: 104px;
+  color: rgb(255, 255, 255);
+  text-shadow: 12px 2px 10px rgba(0,0,0,1);
+}
+
+div.zatixa
+{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 31%;
+  height: 450px;
+  text-align: center;
+  position: relative;
+  margin: 1%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: top center;
+	box-shadow: 2px 3px 30px black;
+  z-index: 0;
+  transition: all 1s ease-in-out;
+}
+div.zatixa:not(div.zatixa.kantauriarra) {
+    border: 5px solid white;
+}
+
+div.zatixa.kantauriarra
+{border: 5px solid #ff4141;
+ background-image:url(Irudiak/kantauriarra.jpg);}
+
+div.zatixa.eskulapio
+{background-image:url(Irudiak/eskulapio.jpg);}
+
+div.zatixa.gorbataduna
+{background-image:url(Irudiak/gorbataduna.jpg);}
+
+div.zatixa.biperakara
+{background-image:url(Irudiak/biperakara.jpg);}
+
+div.zatixa.hegoleun
+{background-image:url(Irudiak/hegoleun.jpg);}
+
+div.zatixa.iparleun
+{background-image:url(Irudiak/iparleun.jpg);}
+
+
+div.zatixa:hover, div.zatixa:active
+{
+  -webkit-filter: grayscale(70%) sepia(70%);
+  transition: all 1s ease-in-out;
+}
+
+div.zatixa h2.titulua
+{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
+  font-family: 'nik';
+  font-size: 46px;
+  line-height: 36px;
+}
+div.zatixa h2.titulua:not(div.zatixa.kantauriarra h2.titulua) {
+    color: #fff;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+div.zatixa.kantauriarra h2.titulua{
+    color: #ff4141;
+    -webkit-text-stroke: 1px #ff4141;
+}
+
+div.zatixa div.agertu
+{
+  background-color: rgba(255,255,255,0.7);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #000;
+  box-sizing: border-box;
+  text-align: left;
+  height: 0px;
+  padding: 0;
+  font-family: 'Merriweather';
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 24px;
+  transition: all 1s ease-in-out;
+  z-index: 10;
+}
+
+div.zatixa:hover div.agertu, div.zatixa:active div.agertu
+{
+  height: 70%;
+  transition: all 1s ease-in-out;
+}
+
+div.zatixa div.agertu div.deskribapena
+{
+  width: 100%;
+  height: 296px;
+  padding: 12px;
+  box-sizing: border-box;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+div.zatixa div.agertu a
+{
+  z-index: 100;
+  float: right;
+  margin: 12px 12px 0 0;
+  background: #000;
+  color: white;
+  padding: 5px 10px;
+  display: inline-block;
+  position: relative;
+  border: 1px solid #000;
+  box-shadow: 
+    0px 1px 1px rgba(211,211,211,0.8) inset, 
+    1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+
+
+
+div.haundixa{
+    background-color: rgba(0, 0, 0, 0.904);
+    display: inline-block;
+  box-sizing: border-box;
+  width: 85%;
+  height: 3950px;
+  position: relative;
+  margin: 1%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: top center;
+	box-shadow: 2px 3px 30px black;
+    border: 5px solid salmon;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+div.haundixa p:not(div.haundixa p.erdikua, div.haundixa p.lena){
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+h3{
+    font-family: 'nuk';
+    font-size: 96px;
+    color:rgb(255, 137, 137)
+}
+
+
+table td p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+
+
+.sugegorrixa:hover:not(.s2){
+    box-shadow: 2px 3px 30px rgb(255, 1, 1);
+}
+.bestia:hover:not(.b2, .melanikua){
+    box-shadow: 2px 3px 30px rgb(255, 255, 255);
+}
+
+.s2:hover{
+    -webkit-filter: drop-shadow(2px 3px 30px rgb(255, 1, 1));
+}
+.b2:hover{
+    -webkit-filter: drop-shadow(2px 3px 30px rgb(255, 255, 255));
+}
+
+.hego:hover{
+    -webkit-filter: drop-shadow(2px 3px 10px rgb(252, 203, 70));
+}
+.ipar:hover{
+    -webkit-filter: drop-shadow(2px 3px 10px rgb(181, 255, 112));
+}
+
+
+.sugegorrixa, .hego{
+    float: left;
+    shape-margin: 2%;
+}
+.bestia, .ipar{
+    float: right;
+    shape-margin: 2%;
+}
+
+.s1 {
+    shape-outside: circle(50%);
+}
+.b1 {
+    shape-outside: circle(50%);
+}
+.s2 {
+    shape-outside: url(Irudiak/burua3.png);
+}
+.b2 {
+    shape-outside: url(Irudiak/burua2.png);
+}
+.h1 {
+    shape-outside: url(Irudiak/behekua1.png);
+}
+.i1 {
+    shape-outside: url(Irudiak/behekua2.png);
+}
+.h2 {
+    shape-outside: url(Irudiak/hego2.png);
+}
+.i2 {
+    shape-outside: url(Irudiak/ipar2.png);
+}
+.melanikua{
+    shape-outside: url(Irudiak/melanikua.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.ruby-menu-demo-header {
+    position: relative;
+    left: -10px;
+    top: -10px;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+ul.ruby-menu > li.ruby-active-menu-item > a {
+    background: #efefef;
+    color: #222
+}
+
+@media only screen and (max-width: 768px) {
+
+    
+    div.ruby-wrapper {
+        position: relative;
+        width: 980px;
+        height: 60px;
+        margin: 0 auto;
+        background: #333
+    }
+
+    .quarter-circle-top-left{
+        width: 60px;
+        height: 60px;
+        background: #333;
+        border-radius: 0 0 100px 0;
+        -moz-border-radius: 0 0 100px 0;
+        -webkit-border-radius: 0 0 100px 0;
+        margin-top: -70px;
+        margin-left: 180px;
+    }
+    .quarter-circle-top-right{
+        width: 60px;
+        height: 60px;
+        background: #ff4141;
+        border-radius: 0 0 0 100px;
+        -moz-border-radius: 0 0 0 100px;
+        -webkit-border-radius: 0 0 0 100px;
+        margin-top: -60px;
+        margin-left: 20px;
+    }
+
+}
+
+
+@media(min-width: 767px) {
+    ul.ruby-menu > li > a:after {
+        transition:all .3s ease
+    }
+
+    
+    div.ruby-wrapper {
+        position: relative;
+        width: 690;
+        height: 60px;
+        margin: 0 auto;
+        background: #333
+    }
+    
+
+    .quarter-circle-top-left{
+        width: 60px;
+        height: 60px;
+        background: #333;
+        border-radius: 0 0 100px 0;
+        -moz-border-radius: 0 0 100px 0;
+        -webkit-border-radius: 0 0 100px 0;
+        margin-top: -70px;
+        margin-left: 1170px;
+    }
+    .quarter-circle-top-right{
+        width: 60px;
+        height: 60px;
+        background: #ff4141;
+        border-radius: 0 0 0 100px;
+        -moz-border-radius: 0 0 0 100px;
+        -webkit-border-radius: 0 0 0 100px;
+        margin-top: -60px;
+        margin-left: 421px;
+    }
+
+    
+}
+
+
+
+
+body {
+    font-family: 'Open Sans',sans-serif
+}
+
+div.ruby-wrapper ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+div.ruby-wrapper > ul {
+    position: relative
+}
+
+ul.ruby-menu > li {
+    float: left;
+    font-size: 20px
+}
+
+ul.ruby-menu > li.ruby-menu-right {
+    float: right
+}
+
+ul.ruby-menu > li > a {
+    display: block;
+    line-height: 60px;
+    padding: 0 25px 0 15px;
+    color: #efefef;
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+ul.ruby-menu > li > a:only-child {
+    padding: 0 15px
+}
+
+ul.ruby-menu > li > a:hover:not(.insta) {
+    background: #ff4141
+}
+
+ul.ruby-menu > li > a:only-child:after,ul.ruby-menu > li:hover > a:only-child:after {
+    content: ''
+}
+
+ul.ruby-menu > li.ruby-active-menu-item > a {
+    background: #ff4141
+}
+
+ul.ruby-menu > li > ul,ul.ruby-menu > li > ul > li > ul,ul.ruby-menu > li > ul > li > ul > li > ul {
+    position: absolute;
+    -webkit-box-shadow: 0 8px 24px -5px #ccc;
+    -moz-box-shadow: 0 8px 24px -5px #ccc;
+    box-shadow: 0 8px 24px -5px #ccc;
+    border-top: 4px solid #ff4141
+}
+
+ul.ruby-menu > li > ul > li > a,ul.ruby-menu > li > ul > li > ul > li > a,ul.ruby-menu > li > ul > li > ul > li > ul > li > a {
+    display: block;
+    width: 170px;
+    line-height: 40px;
+    padding: 0 35px 0 25px;
+    background: #333;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+ul.ruby-menu > li > ul > li:hover > a,ul.ruby-menu > li > ul > li > a:hover,ul.ruby-menu > li > ul > li > ul > li:hover > a,ul.ruby-menu > li > ul > li > ul > li > a:hover,ul.ruby-menu > li > ul > li > ul > li > ul > li:hover > a,ul.ruby-menu > li > ul > li > ul > li > ul > li > a:hover {
+    background: #ff4141
+}
+
+ul.ruby-menu > li > ul > li > a:only-child:after,ul.ruby-menu > li > ul > li > ul > li > a:only-child:after,ul.ruby-menu > li > ul > li > ul > li > ul > li > a:only-child:after {
+    content: ""
+}
+
+ul.ruby-menu > li.ruby-menu-right > ul {
+    right: 0
+}
+
+    ul.ruby-menu > li > ul,ul.ruby-menu > li > ul > li > ul,ul.ruby-menu > li > ul > li > ul > li > ul {
+        visibility: hidden;
+        opacity: 0
+    }
+
+    ul.ruby-menu > li:hover > ul,ul.ruby-menu > li > ul > li:hover > ul,ul.ruby-menu > li > ul > li > ul > li:hover > ul {
+        visibility: visible;
+        opacity: 1
+    }
+
+
+    ul.ruby-menu > li > a:after {
+        font-family: "FontAwesome";
+        text-decoration: none;
+        content: '▷';
+        position: absolute;
+        margin-left: 5px
+    }
+
+    ul.ruby-menu > li:hover > a:after {
+        -webkit-transform: rotate(-270deg);
+        -moz-transform: rotate(-270deg);
+        -o-transform: rotate(-270deg);
+        -ms-transform: rotate(-270deg);
+        transform: rotate(-270deg)
+    }
+
+    
