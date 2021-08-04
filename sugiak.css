@@ -164,7 +164,7 @@ div.haundixa{
     display: inline-block;
   box-sizing: border-box;
   width: 85%;
-  height: 3950px;
+  height: 4000px;
   position: relative;
   margin: 1%;
   overflow: hidden;
@@ -356,7 +356,7 @@ ul.ruby-menu > li.ruby-active-menu-item > a {
         -moz-border-radius: 0 0 100px 0;
         -webkit-border-radius: 0 0 100px 0;
         margin-top: -70px;
-        margin-left: 1170px;
+        margin-left: 1080px;
     }
     .quarter-circle-top-right{
         width: 60px;
@@ -366,7 +366,7 @@ ul.ruby-menu > li.ruby-active-menu-item > a {
         -moz-border-radius: 0 0 0 100px;
         -webkit-border-radius: 0 0 0 100px;
         margin-top: -60px;
-        margin-left: 421px;
+        margin-left: 340px;
     }
 
     
